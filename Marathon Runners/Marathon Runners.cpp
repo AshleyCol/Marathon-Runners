@@ -17,19 +17,6 @@ int main()
 
     readRunnerData(dataFile, runnerNames, milesRun);
 
-    for (int i = 0; i < runnerCount; i++) {
-        int dayCounter = 0;
-
-        cout << runnerNames[i] << " ";
-
-        while (dayCounter < 7) {
-            cout << milesRun[i][dayCounter] << " ";
-
-            ++dayCounter;
-        }
-
-        cout << endl;
-    }
 }
 
 void readRunnerData(string filename, string names[runnerCount], int dailyMiles[runnerCount][7]) {
