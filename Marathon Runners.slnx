@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Marathon Runners/Marathon Runners.vcxproj" />
+  <Project Path="Marathon Runners/Marathon Runners.vcxproj" Id="f61889ae-a474-48ef-86b9-81f28c2244aa" />
 </Solution>
